@@ -16,9 +16,9 @@ const Navbar = () => {
         alert(`Payment ID: ${response.razorpay_payment_id}`);
       },
       prefill: {
-        name: "John Doe",
-        email: "johndoe@example.com",
-        contact: "9999999999"
+        name: "",
+        email: "",
+        contact: ""
       },
       theme: {
         color: "#22c55e" 
